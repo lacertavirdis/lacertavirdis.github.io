@@ -15,7 +15,7 @@ am.addEventListener("click", function(){
     content.style.display = "flex";
     ed.style.display = "none", sk.style.display = "none", ms.style.display="none", fl.style.display="none", it.style.display = "none";
     
-    content.innerHTML = "I am a student of Zespół Szkół Komunikacji in Poznań,<br>"
+    content.innerHTML = "I am a student at Zespół Szkół Komunikacji in Poznań,<br>"
     +"where I study computer science by gaining theoretical as well as practical knowledge.<br>"
     +""
     +"I am hopeful to be an accomplished programmer someday.";
