@@ -17,9 +17,17 @@ header{
     justify-content: center;
     align-items: center;
     width:85%;
-    height:100px;
+    height:14vh;
     border-radius: 30px;
     margin:5vh;
+    font-size: 130%;
+}
+
+a[href]{
+    color:white;
+    font-size: 140%;
+    font-weight: 550;
+    text-decoration-color: #a4c3b2;
 }
 
 img[src="picture.png"]{
@@ -74,7 +82,7 @@ img[src="magnifying-glass.png"]{
 main{
     background-color: #6b9080;
     width:85%;
-    height:500px;
+    height:65vh;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-evenly;
@@ -86,22 +94,35 @@ main{
 div{
     display: flex;
     background-color: #a4cba4;
-    width:300px;
-    height:150px;
+    width:20vw;
+    height:20vh;
     flex-wrap: wrap;
     flex-direction: row;
     margin:3vh;
-    font-size: 150%;
+    font-size: 170%;
     font-weight: bold;
     justify-content: center;
     align-items: center;
     border-radius: 40px;
 }
 
+div:hover{
+    opacity: 80%;
+    border:4px solid white;
+}
+
 section{
     display: none;
     justify-content: center;
     align-items: center;
-    height:300px;
+    height:40vh;
     width:50%;
+    font-size: 140%;
+    flex-wrap: wrap;
+    margin-top: -15vh;
+}
+
+ul{
+    list-style-type:circle;
+    font-size: 105%;
 }
