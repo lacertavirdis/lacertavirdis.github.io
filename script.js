@@ -43,21 +43,21 @@ ed.addEventListener("click", function(){
 sk.addEventListener("click", function(){
     back[2].src="arrow.png";
     back[2].alt="arrow";
-    sk.style = "width:85%; height:75px; justify-content:center; flex-direction:column; margin-top:0;";
+    sk.style = "width:85%; height:70px; justify-content:center; flex-direction:column; margin:0";
     content.style.display = "flex";
     content.style.width = "85%";
     am.style.display = "none", ed.style.display = "none", ms.style.display="none", fl.style.display="none", it.style.display = "none";
     
-    content.innerHTML = "<ul><li>HTML- creating a frame of a website</li>"
-    +"<li>CSS - styling websites with @keyframes and @media rule</li>"
-    +"<li>JS (basic, i want to improve it) - adding functionality to the websites</li>"
-    +"<li>PHP (basic, i want to improve it) - connecting to a database, writing queries and modifying the database</li>"
-    +"<li>Laravel (basic, i want to improve it) - creating a website based on a project with the use of controllers, models, factories and migrations</li>"
-    +"<li>C++ (basic) - writing programs and a little bit of OOP</li>"
-    +"<li>C# (basic, currently improving) - writing programs using classes, interfaces and inheritance</li>"
-    +"<li>Python - (basic, currently improving) - writing programs</li>"
-    +"<li>SQL (intermediate, currently improving) - DDL, DML, DQL and DCL</li>"
-    +"<li>VBA (basic) - writing macros and functions</li>"
+    content.innerHTML = "<ul><li><b>HTML</b> - creating a frame of a website</li>"
+    +"<li><b>CSS</b> - styling websites with @keyframes and @media rule</li>"
+    +"<li><b>JS (basic)</b> - adding functionality to the websites</li>"
+    +"<li><b>PHP (basic)</b> - connecting to a database, writing queries and modifying the database</li>"
+    +"<li><b>Laravel (basic)</b> - creating a website based on a project with the use of controllers, models, factories and migrations</li>"
+    +"<li><b>C++ (basic)</b> - writing programs and a little bit of OOP</li>"
+    +"<li><b>C# (basic)</b> - writing programs using classes, interfaces and inheritance</li>"
+    +"<li><b>Python (basic)</b> - writing programs</li>"
+    +"<li><b>SQL (intermediate)</b> - DDL, DML, DQL and DCL</li>"
+    +"<li><b>VBA (basic)</b> - writing macros and functions</li>"
     +"</ul>"
     ;
 });
