@@ -30,6 +30,10 @@ a[href]{
     text-decoration-color: #a4c3b2;
 }
 
+a[href="rodo.html"]{
+    margin:10px;
+}
+
 img[src="picture.png"]{
     height:80px;
     width:75px;
@@ -108,7 +112,7 @@ div{
 
 div:hover{
     opacity: 80%;
-    border:4px solid white;
+    outline:4px solid white;
 }
 
 section{
@@ -120,6 +124,20 @@ section{
     font-size: 140%;
     flex-wrap: wrap;
     margin-top: -15vh;
+}
+
+section#r{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:40vh;
+    width:75%;
+    padding: 15px;
+    font-size: 140%;
+    flex-wrap: wrap;
+    background-color: #6b9080;
+    border-radius: 30px;
+    margin-top: 26vh;
 }
 
 ul{
