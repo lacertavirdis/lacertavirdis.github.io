@@ -36,7 +36,8 @@ ed.addEventListener("click", function(){
     content.style.fontSize = "175%";
     am.style.display = "none", sk.style.display = "none", ms.style.display="none", fl.style.display="none", it.style.display = "none";
     
-    content.innerHTML = "Zespół Szkół Komunikacji im. Hipolita Cegielskiego w Poznaniu | 2021 - now";
+    content.innerHTML = "Zespół Szkół Komunikacji im. Hipolita Cegielskiego w Poznaniu | 2021 - now<br><br>"
+    +"Cisco IT Essentials | 2024";
 });
 
 sk.addEventListener("click", function(){
